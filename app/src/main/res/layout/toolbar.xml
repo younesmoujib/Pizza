@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/colorError"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/share"
+            android:layout_width="wrap_content"
+            android:layout_height="49dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="313dp"
+            android:layout_marginEnd="24dp"
+            app:srcCompat="@mipmap/share" />
+
+        <TextView
+            android:id="@+id/padding"
+            android:layout_width="222dp"
+            android:layout_height="47dp"
+            android:padding="10dp"
+            android:text="Pizza Recipes"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+</androidx.appcompat.widget.Toolbar>
